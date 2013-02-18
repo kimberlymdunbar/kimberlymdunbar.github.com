@@ -1,0 +1,115 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0;
+border: 0; font-size: 100%; font: inherit;
+vertical-align: baseline; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+html { font-size: 100%; }
+body { font-size: 1em; }
+
+.content {
+  margin: 0 auto;
+  max-width: 37.5em;
+  padding-bottom: 2em;
+}
+
+h1, h2 { font-family: 'Clicker Script', Helvetica, Arial, sans-serif; font-weight: normal; }
+h3, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif; }
+
+h1 { font-size: 5em; }
+h2 { font-size: 3em; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: inherit; }
+
+a { color: inherit; }
+a:hover { color: red; }
+
+p img {
+  display: block;
+  margin: 0 auto;
+  max-width: 20em;
+  background: #fff;
+  -webkit-border-radius: .125em; border-radius: .125em;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+p { margin: 0 0 1em 0; line-height: 1.5; font-size: 1.25em; }
+p code {
+  padding: 0 .25em 0 .25em;
+  background: #eee;
+  font-family: monospace;
+  -webkit-border-radius: .125em; border-radius: .125em;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+pre {
+  overflow: auto;
+  border-left: solid .5em #ddd;
+  padding: .5em;
+  font-family: monospace;
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+
+section:not(:last-child) {
+  position: relative;
+  border-bottom: solid .125em #ddd;
+}
+section:not(:last-child):before {
+  content: '\00a7';
+  position: absolute;
+  left: 50%;
+  bottom: -.5em;
+  font-family: 'Clicker Script';
+  font-size: 3em;
+  color: #ccc;
+}
+
+article { padding: 2em; }
+article img { max-width: 80%; }
+article header time { float: right; color: #aaa; }
+
+header { margin: 0 0 2em 0; }
+footer { margin: 2em 0 0 0; }
+
+blockquote {
+  font-style: italic;
+  padding: 1em;
+  margin: 0 0 1em 0;
+  position: relative;
+}
+
+blockquote:before {
+  z-index: -1;
+  content: '\201c';
+  position: absolute;
+  top: -.125em;
+  left: -.125em;
+  color: #eee;
+  font-size: 15em;
+}
+
+.text-center { text-align: center; }

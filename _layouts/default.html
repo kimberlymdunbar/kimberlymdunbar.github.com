@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf8'>
+
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+  <meta name='viewport' content='width=device-width'>
+
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Clicker+Script'>
+  <link rel='stylesheet' href='/css/screen.css'>
+</head>
+<body>
+  <div class='content'>
+    <header>
+      <h1 class='text-center'><a href='/'>Kim Dunbar</a></h1>
+      <hr>
+    </header>
+    <div>
+      {{ content }}
+    </div>
+    <footer class='text-center'>
+      <p>
+        &copy; 2013 Kim Dunbar -
+        <a href='http://github.com/kimberlymdunbar/kimberlymdunbar.github.com'>source</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
